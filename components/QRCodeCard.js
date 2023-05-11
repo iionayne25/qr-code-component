@@ -3,7 +3,7 @@ import Image from "next/image";
 const qrCodeCard = () => {
   return (
     <div
-      className="bg-white w-full h-auto mx-6 my-20 pb-8 rounded-2xl flex flex-col  items-center
+      className="bg-white w-full h-auto mx-6 my-20 pb-8 rounded-2xl flex flex-col items-center
     xl:w-64 xl:h-[500px]"
     >
       <div className=" w-full flex justify-center mt-4 mb-5   ">
