@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+html,
+body {
+  margin: 0 auto;
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+@layer components{
+  .title{
+    @apply text-darkBlue text-center font-bold flex flex-wrap text-[20px] px-6 xl:text-[21px] xl:px-4 ;
+  }
+  .description{
+   @apply text-grayisBlue text-[15px] text-center px-6 xl:text-[15px] xl:px-6
+  }
+}
+
